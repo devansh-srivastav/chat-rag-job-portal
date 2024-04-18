@@ -1,5 +1,4 @@
-// import { BiLogoGithub } from "react-icons/bi";
-import { VuiFlexContainer, VuiFlexItem, VuiTitle, VuiIconButton, VuiIcon, VuiLink, VuiAppHeader } from "../../ui";
+import { VuiFlexContainer, VuiFlexItem, VuiTitle, VuiLink, VuiAppHeader } from "../../ui";
 import { HeaderLogo } from "./HeaderLogo";
 
 export const AppHeader = () => {
@@ -25,18 +24,17 @@ export const AppHeader = () => {
         </VuiFlexContainer>
       }
       right={
-        <VuiIconButton
-          href="https://jobmakerspace.vercel.app/"
-          target="_blank"
-          color="neutral"
-          size="l"
-          icon={
-            <VuiIcon>
-              {/* <BiLogoGithub /> */}
-              <button>Go Back</button>
-            </VuiIcon>
-          }
-        />
+        <VuiFlexItem grow={false} shrink={false}>
+            <VuiTitle size="xs">
+              <h1>
+                <strong>
+                  <VuiLink isAnchor href="https://jobmakerspace.vercel.app/">
+                    Go Back to Job Portal
+                  </VuiLink>
+                </strong>
+              </h1>
+            </VuiTitle>
+          </VuiFlexItem>
       }
     />
   );
