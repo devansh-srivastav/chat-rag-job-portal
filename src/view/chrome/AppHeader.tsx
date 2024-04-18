@@ -14,7 +14,7 @@ export const AppHeader = () => {
             <VuiTitle size="xs">
               <h1>
                 <strong>
-                  <VuiLink isAnchor href="https://jobmakerspace.vercel.app/">
+                  <VuiLink isAnchor href="https://www.jobmakerspace.live/">
                     Job Makerspace
                   </VuiLink>
                 </strong>
@@ -28,7 +28,7 @@ export const AppHeader = () => {
             <VuiTitle size="xs">
               <h1>
                 <strong>
-                  <VuiLink isAnchor href="https://jobmakerspace.vercel.app/">
+                  <VuiLink isAnchor href="https://www.jobmakerspace.live/">
                     Go Back to Job Portal
                   </VuiLink>
                 </strong>
